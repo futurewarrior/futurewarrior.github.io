@@ -11,6 +11,8 @@
 	<title>Future Warrior</title>
 
 	<script>
+
+
 	var WIDTH;
 var HEIGHT;
 var canvas;
@@ -28,7 +30,7 @@ document.ontouchmove = function(event){
 $(document).ready(function(){
 	WIDTH = window.innerWidth;
 	HEIGHT = window.innerHeight;
-	particleCount = window.innerHeight/10;
+	particleCount = window.innerHeight/5;
 
 
 	$('#container').width(WIDTH).height(HEIGHT);
@@ -97,7 +99,7 @@ function Circle() {
 
 
 <body>
-	<div class="stars"></div>
+	
 	<canvas id="particles"></canvas>
 	<div class="bottom"></div>
 	<div class="overlay"></div>
